@@ -267,3 +267,17 @@ button:hover{
 .btn{
   text-align: center;
 }
+
+.btns{
+  text-align: center;
+  margin-top: 2rem;
+}
+.btns button{
+  padding: 1rem 3rem;
+  border: none;
+  margin-right: 1rem;
+  background-color: lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}

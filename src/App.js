@@ -7,13 +7,20 @@ import Profile from "./Pages/Profile";
 import Projects from "./Pages/Projects";
 import Home from "./Pages/Home";
 import Error from "./Pages/Error";
+import Bird from "./Pages/Bird";
+import Anka from "./Pages/Anka";
+
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route element={<Home />} path="/" />
+          <Route path="/" element={<Home />}>
+            <Route path="bird" element={<Bird />} />
+            <Route index element={<Anka />} />
+          </Route>
+
           <Route element={<About />} path="/about" />
           <Route element={<Projects />} path="/projects" />
           <Route element={<Contact />} path="/contact" />
