@@ -45,7 +45,7 @@ const Navbar = () => {
             const { id, url, icon } = socialIcon;
             return (
               <li key={id}>
-                <Link to={url}>{icon}</Link>
+                <a href={url}>{icon}</a>
               </li>
             );
           })}
