@@ -98,7 +98,7 @@ p {
 }
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   h2 {
     font-size: 2.5rem;
@@ -235,10 +235,35 @@ nav {
 
 .cards{
   width: 30rem;
-  text-align: center;
   padding: 1rem;
   margin: 2rem auto;
+  background-color:rgb(219, 219, 219);
+  border-radius: 10px;
 }
+
 .mb-3{
   margin-bottom: 1rem;
+}
+
+.cards input{
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.cards button{
+  padding: 0.5rem 1rem;
+  background-color: rgb(152, 181, 182);
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(175, 189, 190);
+}
+
+.btn{
+  text-align: center;
 }
